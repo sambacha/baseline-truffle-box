@@ -1,0 +1,14 @@
+{
+  "name": "baseline-protocol-template",
+  "version": "0.1.0",
+  "description": "truffle box for baseline protocol",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE"
+}
