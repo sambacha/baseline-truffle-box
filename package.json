@@ -16,7 +16,8 @@
     "lint:ts": "eslint --config ./.eslintrc.yaml --ignore-path ./.eslintignore --ext .js,.ts .",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,json,md,sol,ts}\"",
     "prettier:list-different": "prettier --config .prettierrc --list-different \"**/*.{js,json,md,sol,ts}\"",
-    "clean": "rm -rf build/"
+    "clean": "rm -rf build/",
+    "gen-cfg": "surya graph contracts/**/*.sol | dot -Tpng > baseline-cfg.png"
   },
   "author": "",
   "license": "SEE LICENSE IN LICENSE",
