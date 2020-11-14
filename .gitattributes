@@ -1,1 +1,11 @@
-*.sol linguist-language=Solidity
+
+git_ssh text eol=lf
+repo text eol=lf
+hooks/* text eol=lf
+*.sh     eol=lf
+*.bash   eol=lf
+*.zsh    eol=lf
+*.yml    text
+.gitattributes text
+KEY      text
+LICENSE* text
