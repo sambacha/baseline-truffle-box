@@ -1,6 +1,6 @@
 {
   "name": "baseline-protocol-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "truffle box for baseline protocol",
   "main": "truffle-config.js",
   "directories": {
