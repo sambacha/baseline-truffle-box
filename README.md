@@ -1,5 +1,5 @@
-<p align="center">
- <img src= align="center">
+<!-- BEGIN HTML HEADER -->
+
 <p align="center">
  <img src="https://rawcdn.githack.com/sambacha/baseline-truffle-box/ad527b263a58f53e2ede4e8f026fcdb51ed40c6d/docs/box-img-lg.png" align="right" width="350">
 	<h1 align="left">Baseline Protocol Truffle Box</h1>
@@ -7,16 +7,22 @@
  <p align="center">
 <align="center">
   
-<!-- END OF HTML HEADER -->  
+<!-- END HTML HEADER -->  
 
-## Developer Tools 🛠️
+## Developer Tools 🛠️ 
 
 - [Truffle](https://trufflesuite.com/)
 - [Baseline](https://github.com/ethereum-oasis/baseline)
 - [Openzeppelin Contracts](https://openzeppelin.com/contracts/)
 
+## Workflows 🧰
 
-## Organization Registry
+- [BPMN](#)
+- [Splunk](#)
+- [Provide](#)
+- [Add yours here](https://github.com/sambacha/baseline-truffle-box/issues/new)
+
+## Organization Registry 💼
 
 Each organization registered within the OrgRegistry first generates a secp256k1 keypair and uses the Ethereum public address representation as "primary key" for future resolution. This key SHOULD NOT sign transactions. A best practice is to use an HD wallet to rotate keys, preventing any account from signing more than a single transaction.
 
@@ -64,12 +70,11 @@ event UpdateOrg(
     bytes _metadata
 );
 ```
-
-## Shield
+## Shield 🛡
 
 Unlike the Radish34 Reference Implementation, the contracts package does not include a "shield" contract. Rather, it is up to each workgroup to determine a suitable shielding mechanism to ensure privacy. For example, the IBaselineRPC implementation within the Nethermind client used in the BRI-1 Reference Implementation ships with shield contract binaries (i.e., including the MerkleTreeSHA contract).
 
-## Registry Contracts Overview
+## Registry Contracts Overview 🏢
 
 #### Files Description Table
 
@@ -118,7 +123,7 @@ Unlike the Radish34 Reference Implementation, the contracts package does not inc
 |   🛑   | Function can modify state |
 |   💵   | Function is payable       |
 
-## Privacy Contracts Description Report
+## Privacy Contracts Description Report 🔮
 
 #### Files Description Table
 
@@ -152,7 +157,6 @@ Unlike the Radish34 Reference Implementation, the contracts package does not inc
 | :----: | ------------------------- |
 |   🛑   | Function can modify state |
 |   💵   | Function is payable       |
-
 
 
 ## License 
